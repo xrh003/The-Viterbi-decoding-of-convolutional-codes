@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mfc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/mfc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator.CHINA-CCE6C076A\桌面\图形\mfc\mfc.cpp"
+"C:\Documents and Settings\Administrator.CHINA-CCE6C076A\桌面\图形\mfc\mfcDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP103.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP104.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/mfc.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator.CHINA-CCE6C076A\桌面\图形\mfc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP104.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/mfc.pdb" /debug /machine:I386 /out:"Debug/mfc.exe" /pdbtype:sept  ".\Debug\mfc.obj" ".\Debug\mfcDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\mfc.res" "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+c:\program files\microsoft sdk\include\exdisp.h(1120) : error C2061: syntax error : identifier 'SHANDLE_PTR'
+c:\program files\microsoft sdk\include\exdisp.h(1635) : error C2061: syntax error : identifier 'SHANDLE_PTR'
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+mfc.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

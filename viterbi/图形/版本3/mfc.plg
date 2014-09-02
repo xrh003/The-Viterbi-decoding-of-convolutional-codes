@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mfc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP1AA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/mfc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator.CHINA-CCE6C076A\桌面\图形\mfc3\mfc.cpp"
+"C:\Documents and Settings\Administrator.CHINA-CCE6C076A\桌面\图形\mfc3\mfcDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP1AA.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP1AB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/mfc.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator.CHINA-CCE6C076A\桌面\图形\mfc3\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~2.CHI\LOCALS~1\Temp\RSP1AB.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/mfc.pdb" /debug /machine:I386 /out:"Debug/mfc.exe" /pdbtype:sept  ".\Debug\mfc.obj" ".\Debug\mfcDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\mfc.res" "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+mfc.cpp
+mfcDlg.cpp
+c:\documents and settings\administrator.china-cce6c076a\桌面\图形\mfc3\main.h(38) : warning C4101: 'i' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+mfc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
